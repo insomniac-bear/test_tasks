@@ -4,9 +4,9 @@ Repository with test task for Gleb
 Структура проекта:  
 >./  
 >/css  
->> /css/styles.css  
+>>/css/styles.css  
 >/img  
->> /img/*.jpg, *.png, *.svg  
+>>/img/*.jpg, *.png, *.svg  
 >/fonts  
 >/fonts/*.woff, *.woff2  
 >./404.html  
