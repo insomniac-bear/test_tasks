@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "High Tower Text";
+    src: url("../assets/HTOWERT.ttf"); 
+  }
+
+@font-face {
+    font-family: "Roboto"; 
+    src: url("../assets/Roboto-Bold.ttf");
+ } 
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+  }
+  html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 14px;
+  }
+  body {
+    color: white;
+    background-color: #010d34;
+    width: 100%;
+  }
+  
+  .bg-star {
+    background-image: url("../img/bg2.svg");
+  }
+  a {
+    color: #3b5d80;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .g-text-center {
+    text-align: center;
+  }
+  
+
+  h1 {
+    font: 1.5rem/1 "Roboto", sans-serif;
+    margin: 0 0 15px;
+  }
+  
+  .g-min-height-100vh {
+    min-height: 100vh;
+  }
+  
+  .g-flex-centered {
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+  }
+  .g-flex-centered-item {
+    flex: 1 1 0;
+    -moz-box-flex: 1;
+  }
+  
+  .title {
+    font-family: High Tower Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 112px;
+    text-align: center;
+  
+    color: #ffffff;
+  }
+  
+  .description {
+    font-family: High Tower Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 43px;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .g-pa-10 {
+    padding: 10px;
+  }
+
+  .bg-404 {
+    position: relative;
+    margin-top: 107px;
+    width: 590px;
+    height: 300px;
+    background: url("../img/mainImage.svg");
+    border-radius: 70px;
+    margin-left: 30%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+  }
+
+  .button-container.custom404-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: #f1f3f5;
+    padding: 10px 50px;
+    color: rgb(31, 16, 16);
+    border-radius: 10px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 287px;
+    height: 78px;
+    left: 584px;
+    font-size: 36px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 43px;
+  }
+  
+  .button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    align-items: center;
+  }
