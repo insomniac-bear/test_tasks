@@ -9,8 +9,8 @@
 }
 
 html body {
-  margin: 0;
-  padding: 0;
+  	margin: 0;
+	padding: 0;
 }
 
 header{
@@ -29,14 +29,14 @@ header{
 	background: #0D458E;
  }
 
-.logoName {
+.header__logo-container {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	height: 100%;
 }
 
-.logoName img {
+.header__logo-container img {
 	height: 250px;
     position: relative;
     top: 95px;;
@@ -50,7 +50,7 @@ header{
 
 }
 
-.name {
+.header__logo-txt {
 	font-family: Public Sans;
 font-style: normal;
 font-weight: 800;
@@ -65,7 +65,7 @@ color: #FFFFFF;
 
 }
 
-.header-links div a {
+.header-links li a {
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
@@ -77,6 +77,9 @@ margin: 10px;
 color: #FFFFFF;
 }
 
+li {
+	list-style-type: none;	
+}
 
 .lng {
  
@@ -116,6 +119,22 @@ border-radius: 40px;
 .button-eng img {
 	position: relative;
 	top:4px;
+}
+
+.lng2 {
+font-family: Roboto;
+background: #C1840E;
+border-radius: 3px;
+width: 136px;
+height: 46px;
+left: 236px;
+top: 463px;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 32px;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #FFFFFF;
 }
 
 .main-t {
@@ -167,6 +186,15 @@ font-feature-settings: 'pnum' on, 'lnum' on;
 color: #FFFFFF;
 }
 
+.main-text p {
+color: #FFFFFF;
+font-family: Barlow;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+}
+
 .main-text div {
 	width: 136px;
 	height: 46px;
@@ -186,34 +214,29 @@ color: #FFFFFF;
 }
 
 .main-pic img { 
-	width: 896px;
-	
+	width: 705px;
 	height: 658px;
 }
 
 .arrows-contaner {
 	display: flex;
 	flex-direction: row;
-	position: relative;
-    top: -33px;
-    left: 734px;
+	position: absolute;
+    top: 633px;
+    left: 764px;
  
 }
 
-.arrows-contaner div {
-	width: 53px;
+.arrows-contaner button {
+width: 53px;
 height: 53px;
 margin : 10px;
- display: flex;
- align-items: center;
- justify-content: center;
- filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+display: flex;
+align-items: center;
+justify-content: center;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 background: #FFFFFF;
 border: 1px solid #F2F2F2;
 box-sizing: border-box;
 }
 
-.arrows-contaner div span {
-	width: 24px;
-height: 24px;
-}
